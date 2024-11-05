@@ -1,0 +1,94 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 70px;
+    padding-bottom: -140px;
+    height: 1100px;
+    gap: 50px;
+    
+    background-image: linear-gradient(rgb(8, 0, 58, 0.7), rgb(8, 0, 58, 0.7)),
+    url(/homebackground.jpg);
+    background-size: cover ;
+    background-position: center;
+}
+    
+.home-container p{
+    font-size: 30px;
+    margin-top: 50px;
+    max-width: 770px;
+    color: white;
+}
+.vs img{
+    width: 65px;
+}
+.sub-title h2{
+    font-size: 60px;
+    margin-top: -340px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    
+}
+.current-match{
+    font-size: 30px;
+    padding: 80px 190px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background: llinear-gradient(rgb(8, 0, 58, 0.7), rgb(8, 0, 58, 0.7));
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+.current-match h2{
+    font-size: 50px;
+    padding-bottom: 30px;
+    color: white;
+}
+.match-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    margin-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+.current-match h2{
+    align-items: center;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.team1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}
+.team2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}
+.sub-title{
+    color: white;
+}
+.match-data{
+    color: white;
+    
+}
+
+    
+
+    

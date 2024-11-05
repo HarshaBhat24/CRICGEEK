@@ -1,0 +1,70 @@
+.services-title{
+    position: relative;
+}
+.services-title h1{
+    font-size: 60px;
+    margin-top: 60px;
+}
+.services-title img{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 170px;
+    gap: 180px;
+    margin-bottom: 130px;
+    padding: 40px 30px;
+}
+
+
+.services_gap{
+
+    display: flex;
+    gap:150px;
+    justify-content: center;
+    flex-basis: auto;
+
+}
+.service{
+    position: relative;
+    
+}
+.service img{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    object-fit: cover;
+
+}
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,15,152,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+.caption p{
+    font-size: 20px;
+    color: white;
+}
+.service:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}
